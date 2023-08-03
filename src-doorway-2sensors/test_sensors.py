@@ -9,8 +9,6 @@ def printState():
     exit = g.isExitActive()
     print(f"entry: {entry}, exit: {exit}")
 
-
-print(1)
 g.onSensorChanged = printState
 printState()
 while True:
