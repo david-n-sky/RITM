@@ -7,5 +7,5 @@
 * anntenna -- скрипт для движения антенны (на ардуино)
 * other -- папка со всеми прочими вспомогательными скриптами
 ---
-<a name="src-doorway-2sensors"></a> 
+<a name="src-doorway-2sensors">src-doorway-2sensors</a> 
 ---
