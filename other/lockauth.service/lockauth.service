@@ -1,0 +1,15 @@
+[Unit]
+Description=Controller of NFC reader, lock, UHF reader, logements.
+
+[Service]
+ExecStart=/usr/bin/python3 /home/main_work_opening.py
+WorkingDirectory=/home
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=lockauth
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
